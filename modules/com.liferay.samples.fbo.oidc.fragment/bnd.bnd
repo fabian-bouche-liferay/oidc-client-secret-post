@@ -1,0 +1,32 @@
+Bundle-Name: com.liferay.samples.fbo.oidc.fragment
+Bundle-SymbolicName: com.liferay.samples.fbo.oidc.fragment
+Bundle-Version: 1.0.0
+
+Fragment-Host: com.liferay.portal.security.sso.openid.connect.impl
+
+Export-Package: com.liferay.portal.security.sso.openid.connect.internal,\
+	com.liferay.portal.security.sso.openid.connect.internal.configuration.admin.service,\
+	com.liferay.portal.security.sso.openid.connect.internal.session.manager,\
+	com.liferay.portal.security.sso.openid.connect.internal.util,\
+	com.nimbusds.jose;version=8.14.1,\
+	com.nimbusds.jose.jwk;version=8.14.1,\
+    com.nimbusds.jose.jwk.source;version=8.14.1,\
+    com.nimbusds.jose.proc;version=8.14.1,\
+    com.nimbusds.jose.util;version=8.14.1,\
+    com.nimbusds.jwt;version=8.14.1,\
+    com.nimbusds.langtag;version=1.4.0,\
+    com.nimbusds.oauth2.sdk;version=8.4.3,\
+    com.nimbusds.oauth2.sdk.auth;version=8.4.3,\
+    com.nimbusds.oauth2.sdk.client;version=8.4.3,\
+    com.nimbusds.oauth2.sdk.http;version=8.4.3,\
+    com.nimbusds.oauth2.sdk.id;version=8.4.3,\
+    com.nimbusds.oauth2.sdk.pkce;version=8.4.3,\
+    com.nimbusds.oauth2.sdk.token;version=8.4.3,\
+    com.nimbusds.oauth2.sdk.util;version=8.4.3,\
+    com.nimbusds.openid.connect.sdk;version=8.4.3,\
+    com.nimbusds.openid.connect.sdk.claims;version=8.4.3,\
+    com.nimbusds.openid.connect.sdk.op;version=8.4.3,\
+    com.nimbusds.openid.connect.sdk.rp;version=8.4.3,\
+    com.nimbusds.openid.connect.sdk.token;version=8.4.3,\
+    com.nimbusds.openid.connect.sdk.validators;version=8.4.3,\
+    net.minidev.json;version=2.4

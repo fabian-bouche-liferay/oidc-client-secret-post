@@ -1,0 +1,6 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+	compileOnly group: "com.nimbusds", name: "oauth2-oidc-sdk", version: "8.4.3"
+	compileOnly group: 'com.liferay', name: 'com.liferay.portal.security.sso.openid.connect.impl'
+	compileOnly group: "org.slf4j", name: "slf4j-api"
+}

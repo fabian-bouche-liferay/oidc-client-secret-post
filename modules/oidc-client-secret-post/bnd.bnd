@@ -1,0 +1,4 @@
+Bundle-Name: oidc-client-secret-post
+Bundle-SymbolicName: com.liferay.samples.fbo.oidc.client.secret.post
+Bundle-Version: 1.0.0
+
